@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Guerrilla&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 250px;
+
+    
+}
+h1{
+    color: aliceblue;
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    
+  font-family: "Merriweather", serif;
+
+}
+#HE{
+    color: rgb(244, 10, 127);
+    
+    font-size: 70px;
+    text-align: left;
+
+}
+#ji{
+    font-size: 150px;
+}
+#name{
+    color: rgb(12, 246, 71);
+    font-size: 47px;
+
+}
+#vid{
+    color: rgb(20, 192, 218);
+    font-size: 45px;
+}
+#voice{
+    width: 400px;
+
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(to right,rgb(27, 225, 103),rgb(58, 158, 208));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    color:white;
+    box-shadow: 2px 2px 10px rgb(27, 225, 57),2px 2px 10px rgb(230, 3, 121);
+    border: none;
+transition: 1.5s;
+cursor: pointer;
+}
+#btn:hover{
+    box-shadow:2px 2px 10px rgb(30, 224, 117),2px 2px 10px rgb(230, 3, 121); ;
+letter-spacing: 2px;
+}
+#voice{
+    width: 300px;
+    border-radius: 1000%;
+    height: 350px;
+    
+}
